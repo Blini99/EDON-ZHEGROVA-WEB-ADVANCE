@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    font-family: arial;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header{
+    background-color: black;
+    color: darkred;
+    padding: 20px;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    flex-grow: 1;
+}
+aside{
+    background: blue;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    order: 1;
+}
+main{
+    background: blue;
+    flex-grow: 1;
+    padding: 20px;
+    order:2;
+}
+.cards{
+    display: flex;
+    fiex-wrap:flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    align-content: space-evenly;
+    height: 100%;
+    gap: 10px;
+}
