@@ -1,0 +1,33 @@
+/* /* /* @media(min-width=650px){
+    body{
+        background-color: 00004e;
+        color: white;
+    }
+} 
+
+@media all and(max-width=650px){
+    body{
+        background-color: 00004e;
+        color: white;
+    }
+}
+@media all and(orientation:landscape)(
+    h1{
+        font-size=80px;
+    }
+)
+@media all and(orientation:portrait
+)(
+    h1{
+        font-size=83x;
+    }
+) 
+h1{
+    padding: 20px;
+    border: 1px solid black;
+} 
+ @media(min-width:600px)and(max-width:900px;){
+    img{
+        display: none;
+    }
+ }*/
