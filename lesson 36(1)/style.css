@@ -1,0 +1,14 @@
+.mySquare{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.testing{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color:white;
+    position: static;
+    left: auto;
+    top: auto;
+}
